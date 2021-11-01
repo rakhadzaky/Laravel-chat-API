@@ -1,0 +1,809 @@
+{
+	"owner": "4459354",
+	"lastUpdatedBy": "4459354",
+	"lastRevision": 8621258218,
+	"team": null,
+	"id": "a829563c-9c6d-0ac1-2419-e04d04128b31",
+	"name": "Laravel_chat_API",
+	"description": "",
+	"variables": null,
+	"auth": null,
+	"events": null,
+	"folders_order": [
+		"980e0e66-0886-0bc7-ca66-e2995943b499",
+		"fb9a0083-e1af-1c6e-6eb1-d7032f14ea35"
+	],
+	"order": [
+		"32f4b19f-d877-4d9d-dfa6-686f7e39124a",
+		"1430ee90-531d-e9ae-f0d8-2c6c1fb4c724",
+		"223e90e9-ef15-433e-9429-b63487a25a30",
+		"372e25f1-ce03-839a-d1be-87d79c194282"
+	],
+	"folders": [
+		{
+			"owner": "4459354",
+			"lastUpdatedBy": "4459354",
+			"lastRevision": 8539901020,
+			"folder": "7777cba6-ec00-1529-9710-42d63559bb55",
+			"id": "8056707f-9f03-4c2f-560f-d456e5709f20",
+			"name": "Chats",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"7980fff5-0f84-ad4e-cd27-35f260e7c973",
+				"823df487-05a9-bc73-fb83-8a3c72a61a86"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "4459354",
+			"lastUpdatedBy": "4459354",
+			"lastRevision": 8621935564,
+			"folder": "fb9a0083-e1af-1c6e-6eb1-d7032f14ea35",
+			"id": "7777cba6-ec00-1529-9710-42d63559bb55",
+			"name": "Person",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"d3c66bad-8d4b-a295-7aaf-e31527f140fc",
+				"0b712094-29d0-065b-099f-cbceceb78f25",
+				"94810809-398d-563f-625b-6c5c7ab4b77a"
+			],
+			"folders_order": [
+				"8056707f-9f03-4c2f-560f-d456e5709f20"
+			]
+		},
+		{
+			"owner": "4459354",
+			"lastUpdatedBy": "4459354",
+			"lastRevision": 8536545516,
+			"folder": null,
+			"id": "fb9a0083-e1af-1c6e-6eb1-d7032f14ea35",
+			"name": "Room",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"c27a5c40-0248-4921-8969-ee27a0aa0a5a",
+				"f5aec5e6-a736-398f-51d4-b04ef9899519",
+				"a2a99452-309d-ed67-b11a-af9c6a006f75",
+				"220c667c-1ac1-4380-873b-56823d3d5acf"
+			],
+			"folders_order": [
+				"7777cba6-ec00-1529-9710-42d63559bb55"
+			]
+		},
+		{
+			"owner": "4459354",
+			"lastUpdatedBy": "4459354",
+			"lastRevision": 8530855430,
+			"folder": null,
+			"id": "980e0e66-0886-0bc7-ca66-e2995943b499",
+			"name": "User",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"e8f77a6f-92ba-a023-709e-ec216e6c93b8",
+				"699a1422-bc7b-bcde-39a1-434394f980c9",
+				"2612a81c-58b1-8525-65a5-920eb948e23d",
+				"fffe1b99-6ee6-7d5f-bf6f-3c9857248946"
+			],
+			"folders_order": []
+		}
+	],
+	"hasRequests": true,
+	"requests": [
+		{
+			"folder": "7777cba6-ec00-1529-9710-42d63559bb55",
+			"id": "0b712094-29d0-065b-099f-cbceceb78f25",
+			"name": "Person_Add",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/rooms/persons/11/add",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": null,
+			"id": "1430ee90-531d-e9ae-f0d8-2c6c1fb4c724",
+			"name": "Logout",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjUxYjYyZGQ3ZWI0NjVhZjBmNWVmNDk2YzFiZGY1NTAzNGEwOTQ2Y2M1YWVjODlhYjdmMzVlNzdiMDg3ZDlhNmExOWFhMzIxY2U0MjdhM2IyIn0.eyJhdWQiOiIzIiwianRpIjoiNTFiNjJkZDdlYjQ2NWFmMGY1ZWY0OTZjMWJkZjU1MDM0YTA5NDZjYzVhZWM4OWFiN2YzNWU3N2IwODdkOWE2YTE5YWEzMjFjZTQyN2EzYjIiLCJpYXQiOjE1NjIyMDg1NzcsIm5iZiI6MTU2MjIwODU3NywiZXhwIjoxNTkzODMwOTc3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.zjoFf0RHgqJYIFootf1IElkdgSZFbDvxgvVdaUf5t5BNiJEDvpUwxXaVAge2acIaomOZ97zQKIqkaqLp14y8niwzT9aquAO1ZwN_2zYp25z90u554t7_uN4oO2bTUkABSZQ2OOMrbfHpQqTEFc0CNNKngdDlOQUBZAxtdZONOwHuKf5YBD0GG3cAgEXPFb-7Ndw1JO0VTcrcSYbUAsTS7pe4kCdeACmWuLDqwg-CfllnYm4a5OEt4xZhWeknk9ee62n3r9Ha8zf3taAvhodHNYHgfs4uB0bjsCTUanvVbISVoqL7sZUmLWRdn2lcKP5cXFKLHqhCIklB7nRgrAzB9skArc2cWudKsSsezCXy09SIHOrH9rNyArH7qOMfRROv1UFmaUP57tOGcQ66NEtkfaaWdiePSSEN6toVTUtrjW0w6SmuqvfmRXAmBfZE9t2R-K4p5Tf8hxfW1TPiE9EdpQ63GfLD9wibBzNX0DQE3wbMXpbcpSeyqr3U3z0byjur7-nfpv8H2DR7P0y9p9SeEDDQT9bjTfqoyUt9pmSNNA7uL6u0wfcL7QlEu5yXEnKlgXbFvXgXKOQdgkJRYNxwr_N6ul7Fv5G2AXv9ZpmMA5WR6UularXqvSvyIquQMeo-ybb1qUqUMz1s2Vi0NuspxSg7en6RzxMq_f1ScYPg3zw\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/logout",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjUxYjYyZGQ3ZWI0NjVhZjBmNWVmNDk2YzFiZGY1NTAzNGEwOTQ2Y2M1YWVjODlhYjdmMzVlNzdiMDg3ZDlhNmExOWFhMzIxY2U0MjdhM2IyIn0.eyJhdWQiOiIzIiwianRpIjoiNTFiNjJkZDdlYjQ2NWFmMGY1ZWY0OTZjMWJkZjU1MDM0YTA5NDZjYzVhZWM4OWFiN2YzNWU3N2IwODdkOWE2YTE5YWEzMjFjZTQyN2EzYjIiLCJpYXQiOjE1NjIyMDg1NzcsIm5iZiI6MTU2MjIwODU3NywiZXhwIjoxNTkzODMwOTc3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.zjoFf0RHgqJYIFootf1IElkdgSZFbDvxgvVdaUf5t5BNiJEDvpUwxXaVAge2acIaomOZ97zQKIqkaqLp14y8niwzT9aquAO1ZwN_2zYp25z90u554t7_uN4oO2bTUkABSZQ2OOMrbfHpQqTEFc0CNNKngdDlOQUBZAxtdZONOwHuKf5YBD0GG3cAgEXPFb-7Ndw1JO0VTcrcSYbUAsTS7pe4kCdeACmWuLDqwg-CfllnYm4a5OEt4xZhWeknk9ee62n3r9Ha8zf3taAvhodHNYHgfs4uB0bjsCTUanvVbISVoqL7sZUmLWRdn2lcKP5cXFKLHqhCIklB7nRgrAzB9skArc2cWudKsSsezCXy09SIHOrH9rNyArH7qOMfRROv1UFmaUP57tOGcQ66NEtkfaaWdiePSSEN6toVTUtrjW0w6SmuqvfmRXAmBfZE9t2R-K4p5Tf8hxfW1TPiE9EdpQ63GfLD9wibBzNX0DQE3wbMXpbcpSeyqr3U3z0byjur7-nfpv8H2DR7P0y9p9SeEDDQT9bjTfqoyUt9pmSNNA7uL6u0wfcL7QlEu5yXEnKlgXbFvXgXKOQdgkJRYNxwr_N6ul7Fv5G2AXv9ZpmMA5WR6UularXqvSvyIquQMeo-ybb1qUqUMz1s2Vi0NuspxSg7en6RzxMq_f1ScYPg3zw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "fb9a0083-e1af-1c6e-6eb1-d7032f14ea35",
+			"id": "220c667c-1ac1-4380-873b-56823d3d5acf",
+			"name": "Room_Delete",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjUxYjYyZGQ3ZWI0NjVhZjBmNWVmNDk2YzFiZGY1NTAzNGEwOTQ2Y2M1YWVjODlhYjdmMzVlNzdiMDg3ZDlhNmExOWFhMzIxY2U0MjdhM2IyIn0.eyJhdWQiOiIzIiwianRpIjoiNTFiNjJkZDdlYjQ2NWFmMGY1ZWY0OTZjMWJkZjU1MDM0YTA5NDZjYzVhZWM4OWFiN2YzNWU3N2IwODdkOWE2YTE5YWEzMjFjZTQyN2EzYjIiLCJpYXQiOjE1NjIyMDg1NzcsIm5iZiI6MTU2MjIwODU3NywiZXhwIjoxNTkzODMwOTc3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.zjoFf0RHgqJYIFootf1IElkdgSZFbDvxgvVdaUf5t5BNiJEDvpUwxXaVAge2acIaomOZ97zQKIqkaqLp14y8niwzT9aquAO1ZwN_2zYp25z90u554t7_uN4oO2bTUkABSZQ2OOMrbfHpQqTEFc0CNNKngdDlOQUBZAxtdZONOwHuKf5YBD0GG3cAgEXPFb-7Ndw1JO0VTcrcSYbUAsTS7pe4kCdeACmWuLDqwg-CfllnYm4a5OEt4xZhWeknk9ee62n3r9Ha8zf3taAvhodHNYHgfs4uB0bjsCTUanvVbISVoqL7sZUmLWRdn2lcKP5cXFKLHqhCIklB7nRgrAzB9skArc2cWudKsSsezCXy09SIHOrH9rNyArH7qOMfRROv1UFmaUP57tOGcQ66NEtkfaaWdiePSSEN6toVTUtrjW0w6SmuqvfmRXAmBfZE9t2R-K4p5Tf8hxfW1TPiE9EdpQ63GfLD9wibBzNX0DQE3wbMXpbcpSeyqr3U3z0byjur7-nfpv8H2DR7P0y9p9SeEDDQT9bjTfqoyUt9pmSNNA7uL6u0wfcL7QlEu5yXEnKlgXbFvXgXKOQdgkJRYNxwr_N6ul7Fv5G2AXv9ZpmMA5WR6UularXqvSvyIquQMeo-ybb1qUqUMz1s2Vi0NuspxSg7en6RzxMq_f1ScYPg3zw\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/rooms/delete/19",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjUxYjYyZGQ3ZWI0NjVhZjBmNWVmNDk2YzFiZGY1NTAzNGEwOTQ2Y2M1YWVjODlhYjdmMzVlNzdiMDg3ZDlhNmExOWFhMzIxY2U0MjdhM2IyIn0.eyJhdWQiOiIzIiwianRpIjoiNTFiNjJkZDdlYjQ2NWFmMGY1ZWY0OTZjMWJkZjU1MDM0YTA5NDZjYzVhZWM4OWFiN2YzNWU3N2IwODdkOWE2YTE5YWEzMjFjZTQyN2EzYjIiLCJpYXQiOjE1NjIyMDg1NzcsIm5iZiI6MTU2MjIwODU3NywiZXhwIjoxNTkzODMwOTc3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.zjoFf0RHgqJYIFootf1IElkdgSZFbDvxgvVdaUf5t5BNiJEDvpUwxXaVAge2acIaomOZ97zQKIqkaqLp14y8niwzT9aquAO1ZwN_2zYp25z90u554t7_uN4oO2bTUkABSZQ2OOMrbfHpQqTEFc0CNNKngdDlOQUBZAxtdZONOwHuKf5YBD0GG3cAgEXPFb-7Ndw1JO0VTcrcSYbUAsTS7pe4kCdeACmWuLDqwg-CfllnYm4a5OEt4xZhWeknk9ee62n3r9Ha8zf3taAvhodHNYHgfs4uB0bjsCTUanvVbISVoqL7sZUmLWRdn2lcKP5cXFKLHqhCIklB7nRgrAzB9skArc2cWudKsSsezCXy09SIHOrH9rNyArH7qOMfRROv1UFmaUP57tOGcQ66NEtkfaaWdiePSSEN6toVTUtrjW0w6SmuqvfmRXAmBfZE9t2R-K4p5Tf8hxfW1TPiE9EdpQ63GfLD9wibBzNX0DQE3wbMXpbcpSeyqr3U3z0byjur7-nfpv8H2DR7P0y9p9SeEDDQT9bjTfqoyUt9pmSNNA7uL6u0wfcL7QlEu5yXEnKlgXbFvXgXKOQdgkJRYNxwr_N6ul7Fv5G2AXv9ZpmMA5WR6UularXqvSvyIquQMeo-ybb1qUqUMz1s2Vi0NuspxSg7en6RzxMq_f1ScYPg3zw",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": null,
+			"id": "223e90e9-ef15-433e-9429-b63487a25a30",
+			"name": "Who_Am_I",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjZhZDFjNWFmNjYwMDMyMTU3YWUxNTcyYzY2OGIyMjUzYWEyZTc2OTY0YjRlNjgxMjZhODBmZjVjZjM1MmUyODc5NjI0ZDQ1NmY4ODRhODhjIn0.eyJhdWQiOiIzIiwianRpIjoiNmFkMWM1YWY2NjAwMzIxNTdhZTE1NzJjNjY4YjIyNTNhYTJlNzY5NjRiNGU2ODEyNmE4MGZmNWNmMzUyZTI4Nzk2MjRkNDU2Zjg4NGE4OGMiLCJpYXQiOjE1NjIyMzA5NDIsIm5iZiI6MTU2MjIzMDk0MiwiZXhwIjoxNTkzODUzMzQyLCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.DoRD1qf8UpSutFyp50Mr1Bi0bNeBkuMe7Pm9nKhY4rA2qT_2rIpqIUMAQRGnWZO8dYgkkJSZjWw3yk1U8qHRnEyZMXUzpKrPhjjb9Ev77DeT4ncvSOVoYQ7aU3q9wWvIoby0K-0r8C4-B1yDnNBJ9jUG7wC-e4KxoYRSfQBK0CEyWbTrdZVkagpAzTqElW9BmdHpbCUdbLIkCQj0mYV4rN00k75IQagnO6Jyj09KpCLfHWawlgZID2zCMxeyoxyBI8nbkNfxYDTUXVYMKvoDwFiJQ1FAnEpPgM4a4pK7AhUFKHn-cwkKGGW845rLiR1wQ3dZYEi3p3ap6djLo1aNeTEP7rmEkdq9cg5PugAtHUAHznJgqg3OuNMp72geEKH1EI61Mscw7SvOoQL6JpbZtsLq_5AMq_cQhD42tvuoV44hIDFtRslDKeLBEdcJ6GrhSzrCX46_owLBZAMiWxhhHHJf9yTsZVA9sVB6yqYIOMKQZoCdRPbpOyRD7ikwx688Vou8c9gqh7m6R0fQ0k9w-lX4Ue-hW1Ike1saVXkGEvY1YzPIlf62P4f39Ea5m4rNQpOET_mDpf3t8xzqa5mBquyVkFQCdCogqDrOhRljYqRo2wjrl49n8NAQoPl3sw4VIme0skSAN8mrjizThMKDSWGlC_9WcfJMo3YQp-E5dPM\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/who_am_i",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjZhZDFjNWFmNjYwMDMyMTU3YWUxNTcyYzY2OGIyMjUzYWEyZTc2OTY0YjRlNjgxMjZhODBmZjVjZjM1MmUyODc5NjI0ZDQ1NmY4ODRhODhjIn0.eyJhdWQiOiIzIiwianRpIjoiNmFkMWM1YWY2NjAwMzIxNTdhZTE1NzJjNjY4YjIyNTNhYTJlNzY5NjRiNGU2ODEyNmE4MGZmNWNmMzUyZTI4Nzk2MjRkNDU2Zjg4NGE4OGMiLCJpYXQiOjE1NjIyMzA5NDIsIm5iZiI6MTU2MjIzMDk0MiwiZXhwIjoxNTkzODUzMzQyLCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.DoRD1qf8UpSutFyp50Mr1Bi0bNeBkuMe7Pm9nKhY4rA2qT_2rIpqIUMAQRGnWZO8dYgkkJSZjWw3yk1U8qHRnEyZMXUzpKrPhjjb9Ev77DeT4ncvSOVoYQ7aU3q9wWvIoby0K-0r8C4-B1yDnNBJ9jUG7wC-e4KxoYRSfQBK0CEyWbTrdZVkagpAzTqElW9BmdHpbCUdbLIkCQj0mYV4rN00k75IQagnO6Jyj09KpCLfHWawlgZID2zCMxeyoxyBI8nbkNfxYDTUXVYMKvoDwFiJQ1FAnEpPgM4a4pK7AhUFKHn-cwkKGGW845rLiR1wQ3dZYEi3p3ap6djLo1aNeTEP7rmEkdq9cg5PugAtHUAHznJgqg3OuNMp72geEKH1EI61Mscw7SvOoQL6JpbZtsLq_5AMq_cQhD42tvuoV44hIDFtRslDKeLBEdcJ6GrhSzrCX46_owLBZAMiWxhhHHJf9yTsZVA9sVB6yqYIOMKQZoCdRPbpOyRD7ikwx688Vou8c9gqh7m6R0fQ0k9w-lX4Ue-hW1Ike1saVXkGEvY1YzPIlf62P4f39Ea5m4rNQpOET_mDpf3t8xzqa5mBquyVkFQCdCogqDrOhRljYqRo2wjrl49n8NAQoPl3sw4VIme0skSAN8mrjizThMKDSWGlC_9WcfJMo3YQp-E5dPM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "980e0e66-0886-0bc7-ca66-e2995943b499",
+			"id": "2612a81c-58b1-8525-65a5-920eb948e23d",
+			"name": "User_Delete",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer  eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImFmOTZjM2ZmZGY1ZGE2YzA2NmExMDhiZGVhODUzYjAwYTRhMDU4ZDJkOTc1NGQyYTNjMmUwMWUwOTNiYjVkM2Q0OTlhMWI0YjEzODRlMDM2In0.eyJhdWQiOiIzIiwianRpIjoiYWY5NmMzZmZkZjVkYTZjMDY2YTEwOGJkZWE4NTNiMDBhNGEwNThkMmQ5NzU0ZDJhM2MyZTAxZTA5M2JiNWQzZDQ5OWExYjRiMTM4NGUwMzYiLCJpYXQiOjE1NjIyMDY0MzcsIm5iZiI6MTU2MjIwNjQzNywiZXhwIjoxNTkzODI4ODM3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.YArmOEZWYyptgVgVHdIQ2Y4VeR5eN95esvKOfvCpD1Pb7nBw1aVHmFlQMRa9kZ-VxXbKmT6jpi-mtUqPNQA_i6vM4oFSWaz81DU0NpKT_joKiUf5bD5eMWS5bbu4IBRbNYTldisSBhMi1seKhpPn_emJzjtvY_Q7rKitVrKy7EvG2dhholSGBUJHh4l1R2rtodwLHOHcHRqwP_7ACaQ10UCAJZWRFKE-EXQDZP61_GrLD-stJbqy9RsLbWL2e4CeZrPSK2TuggBmokJYCMwhJVuT9x8LebLLQ1evb9PuMJWZAtXinMEbbQJpQqOteihv1tPM5I6INdFON35Qvmoy9kbP9ah_AjknqGK53xjV6M38cfwzgZqYhV4UfqDG-352QCJQdzrVc2T0k6_oRIbnabMke25nqTGNQKM2NzX8xRuPgVpbB_5kgQeoONkJKzhpZ8M1DESqDZaI1wg1spF6dOvCnNJ1k9NoZGURTrzbzSqfp6Jglezt_JG2KMuveCyeZR104h76TFqe39m8sdrdA-bwkCkmdN-9yvFAkFAzcneB0gaykvVaccs5ERJTh6Rw8lwqc93aqgrZA1Pa5clqtLUd9taoPDj-jkJXGw0OsFawZGhzg7qLPyY2Vbjf2xnGpEkWl8QXUa_YW237AbbYuIjZcWjsWWsaBtU7l4rEv_4\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/users/10",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImFmOTZjM2ZmZGY1ZGE2YzA2NmExMDhiZGVhODUzYjAwYTRhMDU4ZDJkOTc1NGQyYTNjMmUwMWUwOTNiYjVkM2Q0OTlhMWI0YjEzODRlMDM2In0.eyJhdWQiOiIzIiwianRpIjoiYWY5NmMzZmZkZjVkYTZjMDY2YTEwOGJkZWE4NTNiMDBhNGEwNThkMmQ5NzU0ZDJhM2MyZTAxZTA5M2JiNWQzZDQ5OWExYjRiMTM4NGUwMzYiLCJpYXQiOjE1NjIyMDY0MzcsIm5iZiI6MTU2MjIwNjQzNywiZXhwIjoxNTkzODI4ODM3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.YArmOEZWYyptgVgVHdIQ2Y4VeR5eN95esvKOfvCpD1Pb7nBw1aVHmFlQMRa9kZ-VxXbKmT6jpi-mtUqPNQA_i6vM4oFSWaz81DU0NpKT_joKiUf5bD5eMWS5bbu4IBRbNYTldisSBhMi1seKhpPn_emJzjtvY_Q7rKitVrKy7EvG2dhholSGBUJHh4l1R2rtodwLHOHcHRqwP_7ACaQ10UCAJZWRFKE-EXQDZP61_GrLD-stJbqy9RsLbWL2e4CeZrPSK2TuggBmokJYCMwhJVuT9x8LebLLQ1evb9PuMJWZAtXinMEbbQJpQqOteihv1tPM5I6INdFON35Qvmoy9kbP9ah_AjknqGK53xjV6M38cfwzgZqYhV4UfqDG-352QCJQdzrVc2T0k6_oRIbnabMke25nqTGNQKM2NzX8xRuPgVpbB_5kgQeoONkJKzhpZ8M1DESqDZaI1wg1spF6dOvCnNJ1k9NoZGURTrzbzSqfp6Jglezt_JG2KMuveCyeZR104h76TFqe39m8sdrdA-bwkCkmdN-9yvFAkFAzcneB0gaykvVaccs5ERJTh6Rw8lwqc93aqgrZA1Pa5clqtLUd9taoPDj-jkJXGw0OsFawZGhzg7qLPyY2Vbjf2xnGpEkWl8QXUa_YW237AbbYuIjZcWjsWWsaBtU7l4rEv_4",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": null,
+			"id": "32f4b19f-d877-4d9d-dfa6-686f7e39124a",
+			"name": "Login",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "email",
+					"value": "rakhadzaky9@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "qweqwe",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/login",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": null,
+			"id": "372e25f1-ce03-839a-d1be-87d79c194282",
+			"name": "Signup",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "Rakha Dzaky",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "rakhadzaky9@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "qweqwe",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/users",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "980e0e66-0886-0bc7-ca66-e2995943b499",
+			"id": "699a1422-bc7b-bcde-39a1-434394f980c9",
+			"name": "User_Detail",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImFmOTZjM2ZmZGY1ZGE2YzA2NmExMDhiZGVhODUzYjAwYTRhMDU4ZDJkOTc1NGQyYTNjMmUwMWUwOTNiYjVkM2Q0OTlhMWI0YjEzODRlMDM2In0.eyJhdWQiOiIzIiwianRpIjoiYWY5NmMzZmZkZjVkYTZjMDY2YTEwOGJkZWE4NTNiMDBhNGEwNThkMmQ5NzU0ZDJhM2MyZTAxZTA5M2JiNWQzZDQ5OWExYjRiMTM4NGUwMzYiLCJpYXQiOjE1NjIyMDY0MzcsIm5iZiI6MTU2MjIwNjQzNywiZXhwIjoxNTkzODI4ODM3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.YArmOEZWYyptgVgVHdIQ2Y4VeR5eN95esvKOfvCpD1Pb7nBw1aVHmFlQMRa9kZ-VxXbKmT6jpi-mtUqPNQA_i6vM4oFSWaz81DU0NpKT_joKiUf5bD5eMWS5bbu4IBRbNYTldisSBhMi1seKhpPn_emJzjtvY_Q7rKitVrKy7EvG2dhholSGBUJHh4l1R2rtodwLHOHcHRqwP_7ACaQ10UCAJZWRFKE-EXQDZP61_GrLD-stJbqy9RsLbWL2e4CeZrPSK2TuggBmokJYCMwhJVuT9x8LebLLQ1evb9PuMJWZAtXinMEbbQJpQqOteihv1tPM5I6INdFON35Qvmoy9kbP9ah_AjknqGK53xjV6M38cfwzgZqYhV4UfqDG-352QCJQdzrVc2T0k6_oRIbnabMke25nqTGNQKM2NzX8xRuPgVpbB_5kgQeoONkJKzhpZ8M1DESqDZaI1wg1spF6dOvCnNJ1k9NoZGURTrzbzSqfp6Jglezt_JG2KMuveCyeZR104h76TFqe39m8sdrdA-bwkCkmdN-9yvFAkFAzcneB0gaykvVaccs5ERJTh6Rw8lwqc93aqgrZA1Pa5clqtLUd9taoPDj-jkJXGw0OsFawZGhzg7qLPyY2Vbjf2xnGpEkWl8QXUa_YW237AbbYuIjZcWjsWWsaBtU7l4rEv_4\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/users/12",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImFmOTZjM2ZmZGY1ZGE2YzA2NmExMDhiZGVhODUzYjAwYTRhMDU4ZDJkOTc1NGQyYTNjMmUwMWUwOTNiYjVkM2Q0OTlhMWI0YjEzODRlMDM2In0.eyJhdWQiOiIzIiwianRpIjoiYWY5NmMzZmZkZjVkYTZjMDY2YTEwOGJkZWE4NTNiMDBhNGEwNThkMmQ5NzU0ZDJhM2MyZTAxZTA5M2JiNWQzZDQ5OWExYjRiMTM4NGUwMzYiLCJpYXQiOjE1NjIyMDY0MzcsIm5iZiI6MTU2MjIwNjQzNywiZXhwIjoxNTkzODI4ODM3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.YArmOEZWYyptgVgVHdIQ2Y4VeR5eN95esvKOfvCpD1Pb7nBw1aVHmFlQMRa9kZ-VxXbKmT6jpi-mtUqPNQA_i6vM4oFSWaz81DU0NpKT_joKiUf5bD5eMWS5bbu4IBRbNYTldisSBhMi1seKhpPn_emJzjtvY_Q7rKitVrKy7EvG2dhholSGBUJHh4l1R2rtodwLHOHcHRqwP_7ACaQ10UCAJZWRFKE-EXQDZP61_GrLD-stJbqy9RsLbWL2e4CeZrPSK2TuggBmokJYCMwhJVuT9x8LebLLQ1evb9PuMJWZAtXinMEbbQJpQqOteihv1tPM5I6INdFON35Qvmoy9kbP9ah_AjknqGK53xjV6M38cfwzgZqYhV4UfqDG-352QCJQdzrVc2T0k6_oRIbnabMke25nqTGNQKM2NzX8xRuPgVpbB_5kgQeoONkJKzhpZ8M1DESqDZaI1wg1spF6dOvCnNJ1k9NoZGURTrzbzSqfp6Jglezt_JG2KMuveCyeZR104h76TFqe39m8sdrdA-bwkCkmdN-9yvFAkFAzcneB0gaykvVaccs5ERJTh6Rw8lwqc93aqgrZA1Pa5clqtLUd9taoPDj-jkJXGw0OsFawZGhzg7qLPyY2Vbjf2xnGpEkWl8QXUa_YW237AbbYuIjZcWjsWWsaBtU7l4rEv_4",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "8056707f-9f03-4c2f-560f-d456e5709f20",
+			"id": "7980fff5-0f84-ad4e-cd27-35f260e7c973",
+			"name": "Chats_View_Message",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/chat_room/11/message",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "8056707f-9f03-4c2f-560f-d456e5709f20",
+			"id": "823df487-05a9-bc73-fb83-8a3c72a61a86",
+			"name": "Chats_Create",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "message",
+					"value": "Nama saya Budi",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/chat_room/10/create",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "7777cba6-ec00-1529-9710-42d63559bb55",
+			"id": "94810809-398d-563f-625b-6c5c7ab4b77a",
+			"name": "Person_Delete",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjUxYjYyZGQ3ZWI0NjVhZjBmNWVmNDk2YzFiZGY1NTAzNGEwOTQ2Y2M1YWVjODlhYjdmMzVlNzdiMDg3ZDlhNmExOWFhMzIxY2U0MjdhM2IyIn0.eyJhdWQiOiIzIiwianRpIjoiNTFiNjJkZDdlYjQ2NWFmMGY1ZWY0OTZjMWJkZjU1MDM0YTA5NDZjYzVhZWM4OWFiN2YzNWU3N2IwODdkOWE2YTE5YWEzMjFjZTQyN2EzYjIiLCJpYXQiOjE1NjIyMDg1NzcsIm5iZiI6MTU2MjIwODU3NywiZXhwIjoxNTkzODMwOTc3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.zjoFf0RHgqJYIFootf1IElkdgSZFbDvxgvVdaUf5t5BNiJEDvpUwxXaVAge2acIaomOZ97zQKIqkaqLp14y8niwzT9aquAO1ZwN_2zYp25z90u554t7_uN4oO2bTUkABSZQ2OOMrbfHpQqTEFc0CNNKngdDlOQUBZAxtdZONOwHuKf5YBD0GG3cAgEXPFb-7Ndw1JO0VTcrcSYbUAsTS7pe4kCdeACmWuLDqwg-CfllnYm4a5OEt4xZhWeknk9ee62n3r9Ha8zf3taAvhodHNYHgfs4uB0bjsCTUanvVbISVoqL7sZUmLWRdn2lcKP5cXFKLHqhCIklB7nRgrAzB9skArc2cWudKsSsezCXy09SIHOrH9rNyArH7qOMfRROv1UFmaUP57tOGcQ66NEtkfaaWdiePSSEN6toVTUtrjW0w6SmuqvfmRXAmBfZE9t2R-K4p5Tf8hxfW1TPiE9EdpQ63GfLD9wibBzNX0DQE3wbMXpbcpSeyqr3U3z0byjur7-nfpv8H2DR7P0y9p9SeEDDQT9bjTfqoyUt9pmSNNA7uL6u0wfcL7QlEu5yXEnKlgXbFvXgXKOQdgkJRYNxwr_N6ul7Fv5G2AXv9ZpmMA5WR6UularXqvSvyIquQMeo-ybb1qUqUMz1s2Vi0NuspxSg7en6RzxMq_f1ScYPg3zw\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/rooms/persons/1/delete/12",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjUxYjYyZGQ3ZWI0NjVhZjBmNWVmNDk2YzFiZGY1NTAzNGEwOTQ2Y2M1YWVjODlhYjdmMzVlNzdiMDg3ZDlhNmExOWFhMzIxY2U0MjdhM2IyIn0.eyJhdWQiOiIzIiwianRpIjoiNTFiNjJkZDdlYjQ2NWFmMGY1ZWY0OTZjMWJkZjU1MDM0YTA5NDZjYzVhZWM4OWFiN2YzNWU3N2IwODdkOWE2YTE5YWEzMjFjZTQyN2EzYjIiLCJpYXQiOjE1NjIyMDg1NzcsIm5iZiI6MTU2MjIwODU3NywiZXhwIjoxNTkzODMwOTc3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.zjoFf0RHgqJYIFootf1IElkdgSZFbDvxgvVdaUf5t5BNiJEDvpUwxXaVAge2acIaomOZ97zQKIqkaqLp14y8niwzT9aquAO1ZwN_2zYp25z90u554t7_uN4oO2bTUkABSZQ2OOMrbfHpQqTEFc0CNNKngdDlOQUBZAxtdZONOwHuKf5YBD0GG3cAgEXPFb-7Ndw1JO0VTcrcSYbUAsTS7pe4kCdeACmWuLDqwg-CfllnYm4a5OEt4xZhWeknk9ee62n3r9Ha8zf3taAvhodHNYHgfs4uB0bjsCTUanvVbISVoqL7sZUmLWRdn2lcKP5cXFKLHqhCIklB7nRgrAzB9skArc2cWudKsSsezCXy09SIHOrH9rNyArH7qOMfRROv1UFmaUP57tOGcQ66NEtkfaaWdiePSSEN6toVTUtrjW0w6SmuqvfmRXAmBfZE9t2R-K4p5Tf8hxfW1TPiE9EdpQ63GfLD9wibBzNX0DQE3wbMXpbcpSeyqr3U3z0byjur7-nfpv8H2DR7P0y9p9SeEDDQT9bjTfqoyUt9pmSNNA7uL6u0wfcL7QlEu5yXEnKlgXbFvXgXKOQdgkJRYNxwr_N6ul7Fv5G2AXv9ZpmMA5WR6UularXqvSvyIquQMeo-ybb1qUqUMz1s2Vi0NuspxSg7en6RzxMq_f1ScYPg3zw",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "fb9a0083-e1af-1c6e-6eb1-d7032f14ea35",
+			"id": "a2a99452-309d-ed67-b11a-af9c6a006f75",
+			"name": "Room_Create",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "room_name",
+					"value": "Gerup",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/rooms/create/2",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "fb9a0083-e1af-1c6e-6eb1-d7032f14ea35",
+			"id": "c27a5c40-0248-4921-8969-ee27a0aa0a5a",
+			"name": "Room_List",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/rooms/list",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "7777cba6-ec00-1529-9710-42d63559bb55",
+			"id": "d3c66bad-8d4b-a295-7aaf-e31527f140fc",
+			"name": "Person_In_Room",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/rooms/persons/11/list",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "980e0e66-0886-0bc7-ca66-e2995943b499",
+			"id": "e8f77a6f-92ba-a023-709e-ec216e6c93b8",
+			"name": "User_List",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY3NTg0MzAzYzVlZDcyOTkxZDQzZDRkYmQzZGJlMGI1YzRhZjg5NTZjZmMzNmViMGRiMzgzNzE1Y2I3MGE4MDI1ODc1MjdlYWExYmM3YzJiIn0.eyJhdWQiOiIzIiwianRpIjoiNjc1ODQzMDNjNWVkNzI5OTFkNDNkNGRiZDNkYmUwYjVjNGFmODk1NmNmYzM2ZWIwZGIzODM3MTVjYjcwYTgwMjU4NzUyN2VhYTFiYzdjMmIiLCJpYXQiOjE1NjIyMDE1MzcsIm5iZiI6MTU2MjIwMTUzNywiZXhwIjoxNTkzODIzOTM3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.hM9BenFd_N8_YjbNe4aqvlOgDPqjLrkzj66di5Z3gKEQkyhz59VJ3LF5hb1hxe3z9ZR6Y2NawqYUNVJw88posI-uaKNNw2VqyNqTB70iqLhnK2ecRm9b1OIM0QKIqP4DU8TUXbjVli9dNwmshY-p_wyy17kinueDMTshyR7UDGLeJfqs5Gy8hRSG1KPyNLmUTm9HsBDiSaGAWE6Lz5j-fxZT--NPMABnW7MOLfFN4YC2j53D0bzLfz9DlwDLnkoBW0vvHPHNKOWsdialv8291fccw6cIyJizImnNuQ3tLAQDUsJgb1wlRVAS8KuUV_uj9whj_j-KQyxQ99ucEcZq1xFzrZCsj_B9DcuMupq-6QfKq3qVyuYoIwHjhGwa78zP0GWqXw-_qaoCUYEl6ENPV2N4rfDEHb0qyJqE7COB1dDOciGjc5qjNIHLFgc5nUfLI-deS20NOAa-DsmFjjhOwH6dgXOXXfU-tDoaSmRZF2j1uz1TqC1z23dGPC6WOswNFAaqHlUBXey3sOdWqQ3P1GaHvn8fvVpJuKtvErUVKMugXJjBL_E2uZoceWeb0NK7ylGFB4RyvWwJGz3rAn5YEju6GFBI0sX9WvrPHEOwylBFMlrMVjenK2wCDHbRZdmPPcUIMklXNmFj2MvcqFEMi-WzZewDP48ri000R9y90YA\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/users",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY3NTg0MzAzYzVlZDcyOTkxZDQzZDRkYmQzZGJlMGI1YzRhZjg5NTZjZmMzNmViMGRiMzgzNzE1Y2I3MGE4MDI1ODc1MjdlYWExYmM3YzJiIn0.eyJhdWQiOiIzIiwianRpIjoiNjc1ODQzMDNjNWVkNzI5OTFkNDNkNGRiZDNkYmUwYjVjNGFmODk1NmNmYzM2ZWIwZGIzODM3MTVjYjcwYTgwMjU4NzUyN2VhYTFiYzdjMmIiLCJpYXQiOjE1NjIyMDE1MzcsIm5iZiI6MTU2MjIwMTUzNywiZXhwIjoxNTkzODIzOTM3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.hM9BenFd_N8_YjbNe4aqvlOgDPqjLrkzj66di5Z3gKEQkyhz59VJ3LF5hb1hxe3z9ZR6Y2NawqYUNVJw88posI-uaKNNw2VqyNqTB70iqLhnK2ecRm9b1OIM0QKIqP4DU8TUXbjVli9dNwmshY-p_wyy17kinueDMTshyR7UDGLeJfqs5Gy8hRSG1KPyNLmUTm9HsBDiSaGAWE6Lz5j-fxZT--NPMABnW7MOLfFN4YC2j53D0bzLfz9DlwDLnkoBW0vvHPHNKOWsdialv8291fccw6cIyJizImnNuQ3tLAQDUsJgb1wlRVAS8KuUV_uj9whj_j-KQyxQ99ucEcZq1xFzrZCsj_B9DcuMupq-6QfKq3qVyuYoIwHjhGwa78zP0GWqXw-_qaoCUYEl6ENPV2N4rfDEHb0qyJqE7COB1dDOciGjc5qjNIHLFgc5nUfLI-deS20NOAa-DsmFjjhOwH6dgXOXXfU-tDoaSmRZF2j1uz1TqC1z23dGPC6WOswNFAaqHlUBXey3sOdWqQ3P1GaHvn8fvVpJuKtvErUVKMugXJjBL_E2uZoceWeb0NK7ylGFB4RyvWwJGz3rAn5YEju6GFBI0sX9WvrPHEOwylBFMlrMVjenK2wCDHbRZdmPPcUIMklXNmFj2MvcqFEMi-WzZewDP48ri000R9y90YA",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "fb9a0083-e1af-1c6e-6eb1-d7032f14ea35",
+			"id": "f5aec5e6-a736-398f-51d4-b04ef9899519",
+			"name": "Room_Detail",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/rooms/detail/11",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjY2ODQ0ZTVlNDNkNGY5OGM4N2M5OWMzNTcyMGI0ODI5NTFhNTA5YjJjNTRhYWE1MjQ0MDhlY2M3N2U3Mjc0MWZhNjYyZWIyMjVmZWJjMWVjIn0.eyJhdWQiOiIxIiwianRpIjoiNjY4NDRlNWU0M2Q0Zjk4Yzg3Yzk5YzM1NzIwYjQ4Mjk1MWE1MDliMmM1NGFhYTUyNDQwOGVjYzc3ZTcyNzQxZmE2NjJlYjIyNWZlYmMxZWMiLCJpYXQiOjE1NjI3NTU1MDUsIm5iZiI6MTU2Mjc1NTUwNSwiZXhwIjoxNTk0Mzc3OTA1LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.VUXfWfUGGHpxfM6KrsE5tGeB5wEmQP63k-ntn9HvmVAMgzCAuyerUn7KZNqTC8OBv8XdTN4bDjSwoXdToA4SPVMPo9pCQsNLD7uOrc-2L0VdBrutCj8YCjN1-kS1WKHmh0QeAcHFrbOPSjZPyaYqwoFtcU6WHH1f-KCxk8VrQC3OHhc7OrRzdnW4DqlvF33KlKkjAVT0YwTh75Uc4XpR4nCa6449SXGkHyGZm89uHRzgyrtWU1Co_rWdGNw7BaLAFwMFJlcNga-TILJq0U1_qcrDQxr8EbDttRb9U5dlM0D24V4tmRJwaafVAZQOXfUBno1gzCfpRRhCO6Ga8PDkOaeAQ3AY5A7E-rsfxNt2oUfqMqnilGvH1kqF-AgHVYJq2qYU9gyGkNb5V34nTUH2YROskvKJt4lr7ogxOrwdTHldl62Bqp2BIiR0WUgXR6V-KpbQ9vkfx2n1wd1bUhxkzpThK0csdiUYLzGYNBW7P8Atnfsa66RUCbpprF3b3CCfI4MhnmgwK6Zb9d6Yg3LbKaxglZQmW3CqwtW0vP2qSLv3BTWiZKFx189tKvtFBozBzz0pjJbrLZSHDIo2mPTlKXlb7hDaMGku7KJFn2zRKj3q8LLD6TDG-KfITN9HxCPcxaDn6IlsB2DvnnSa-jsaawMv6sMuupo-9icxh_PU6CY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		},
+		{
+			"folder": "980e0e66-0886-0bc7-ca66-e2995943b499",
+			"id": "fffe1b99-6ee6-7d5f-bf6f-3c9857248946",
+			"name": "User_Update",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "name",
+					"value": "Athallah Tsany Rakha Dzaky",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "rakhadzaky9@gmail.com",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAccept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImFmOTZjM2ZmZGY1ZGE2YzA2NmExMDhiZGVhODUzYjAwYTRhMDU4ZDJkOTc1NGQyYTNjMmUwMWUwOTNiYjVkM2Q0OTlhMWI0YjEzODRlMDM2In0.eyJhdWQiOiIzIiwianRpIjoiYWY5NmMzZmZkZjVkYTZjMDY2YTEwOGJkZWE4NTNiMDBhNGEwNThkMmQ5NzU0ZDJhM2MyZTAxZTA5M2JiNWQzZDQ5OWExYjRiMTM4NGUwMzYiLCJpYXQiOjE1NjIyMDY0MzcsIm5iZiI6MTU2MjIwNjQzNywiZXhwIjoxNTkzODI4ODM3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.YArmOEZWYyptgVgVHdIQ2Y4VeR5eN95esvKOfvCpD1Pb7nBw1aVHmFlQMRa9kZ-VxXbKmT6jpi-mtUqPNQA_i6vM4oFSWaz81DU0NpKT_joKiUf5bD5eMWS5bbu4IBRbNYTldisSBhMi1seKhpPn_emJzjtvY_Q7rKitVrKy7EvG2dhholSGBUJHh4l1R2rtodwLHOHcHRqwP_7ACaQ10UCAJZWRFKE-EXQDZP61_GrLD-stJbqy9RsLbWL2e4CeZrPSK2TuggBmokJYCMwhJVuT9x8LebLLQ1evb9PuMJWZAtXinMEbbQJpQqOteihv1tPM5I6INdFON35Qvmoy9kbP9ah_AjknqGK53xjV6M38cfwzgZqYhV4UfqDG-352QCJQdzrVc2T0k6_oRIbnabMke25nqTGNQKM2NzX8xRuPgVpbB_5kgQeoONkJKzhpZ8M1DESqDZaI1wg1spF6dOvCnNJ1k9NoZGURTrzbzSqfp6Jglezt_JG2KMuveCyeZR104h76TFqe39m8sdrdA-bwkCkmdN-9yvFAkFAzcneB0gaykvVaccs5ERJTh6Rw8lwqc93aqgrZA1Pa5clqtLUd9taoPDj-jkJXGw0OsFawZGhzg7qLPyY2Vbjf2xnGpEkWl8QXUa_YW237AbbYuIjZcWjsWWsaBtU7l4rEv_4\n",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "http://127.0.0.1:8000/api/user_chat/users/12",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImFmOTZjM2ZmZGY1ZGE2YzA2NmExMDhiZGVhODUzYjAwYTRhMDU4ZDJkOTc1NGQyYTNjMmUwMWUwOTNiYjVkM2Q0OTlhMWI0YjEzODRlMDM2In0.eyJhdWQiOiIzIiwianRpIjoiYWY5NmMzZmZkZjVkYTZjMDY2YTEwOGJkZWE4NTNiMDBhNGEwNThkMmQ5NzU0ZDJhM2MyZTAxZTA5M2JiNWQzZDQ5OWExYjRiMTM4NGUwMzYiLCJpYXQiOjE1NjIyMDY0MzcsIm5iZiI6MTU2MjIwNjQzNywiZXhwIjoxNTkzODI4ODM3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.YArmOEZWYyptgVgVHdIQ2Y4VeR5eN95esvKOfvCpD1Pb7nBw1aVHmFlQMRa9kZ-VxXbKmT6jpi-mtUqPNQA_i6vM4oFSWaz81DU0NpKT_joKiUf5bD5eMWS5bbu4IBRbNYTldisSBhMi1seKhpPn_emJzjtvY_Q7rKitVrKy7EvG2dhholSGBUJHh4l1R2rtodwLHOHcHRqwP_7ACaQ10UCAJZWRFKE-EXQDZP61_GrLD-stJbqy9RsLbWL2e4CeZrPSK2TuggBmokJYCMwhJVuT9x8LebLLQ1evb9PuMJWZAtXinMEbbQJpQqOteihv1tPM5I6INdFON35Qvmoy9kbP9ah_AjknqGK53xjV6M38cfwzgZqYhV4UfqDG-352QCJQdzrVc2T0k6_oRIbnabMke25nqTGNQKM2NzX8xRuPgVpbB_5kgQeoONkJKzhpZ8M1DESqDZaI1wg1spF6dOvCnNJ1k9NoZGURTrzbzSqfp6Jglezt_JG2KMuveCyeZR104h76TFqe39m8sdrdA-bwkCkmdN-9yvFAkFAzcneB0gaykvVaccs5ERJTh6Rw8lwqc93aqgrZA1Pa5clqtLUd9taoPDj-jkJXGw0OsFawZGhzg7qLPyY2Vbjf2xnGpEkWl8QXUa_YW237AbbYuIjZcWjsWWsaBtU7l4rEv_4",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a829563c-9c6d-0ac1-2419-e04d04128b31"
+		}
+	]
+}

@@ -106,9 +106,11 @@ class UserController extends Controller
     }
 
     public function login_proses(Request $req){
-        $data_user = User::where('email','=',$req->email)->first();
+        $email = $req->json()->get('email');
+        $password = $req->json()->get('password');
+        $data_user = User::where('email','=',$email)->first();
         if ($data_user) {
-            if (Hash::check($req->password, $data_user->password)){
+            if (Hash::check($password, $data_user->password)){
                 $token = $data_user->createToken('User Token')->accessToken;
                 return response()->json([
                     'Status' => true,
@@ -117,13 +119,13 @@ class UserController extends Controller
             }
             return response()->json([
                 'Status' => false,
-                'error' => 'UnAuthorized',
+                'error' => 'User does not exist',
             ]);
         }
         return response()->json([
             'Status' => false,
-            'error' => 'UnAuthorized',
-        ], 401);
+            'error' => 'Failed to Login',
+        ]);
     }
 
     public function logout_proses(){
